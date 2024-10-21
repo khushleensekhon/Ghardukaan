@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>GharDukaan</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="test.css">
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+		<!-- <script defer src="https://pyscript.net/alpha/pyscript.js"></script> -->
+</head>
+<body >
+    
+   
+    <header>
+
+      <nav>
+        <h4><i class="bi bi-house-door-fill"></i>GharDukaan</h4>
+      
+        <input type="checkbox" id="menuToggle" />
+      
+        <label for="menuToggle" class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+      
+        <div class="right_bx">
+          <ul>
+            <li>
+              <a href="file:///C:/Users/ACER/OneDrive/Desktop/ghar2/Eval_1/property/project.html" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false" style="font-size: 13px;">Properties</a>
+            </li>
+            <li><a href="file:///C:/Users/ACER/OneDrive/Desktop/GharDukaan/GharDukaan1/contactus.html" style="font-size: 13px;">Contact Us</a></li>
+            <li><a href="file:///C:/Users/ACER/OneDrive/Desktop/GharDukaan/GharDukaan1/about.html" style="font-size: 13px;">About Us</a></li>
+            <li><a href="file:///C:/Users/ACER/OneDrive/Desktop/ghar/Eval_1/login%20page/login.html" style="font-size: 13px;">Sign Up/ Login</a></li>
+          </ul>
+          <div class="account_bx">
+            <i class="bi bi-app-indicator"></i>
+            <i class="bi bi-person"></i> 
+          </div>
+        </div>
+      </nav>
+      
+          
+          
+
+        <div class="content">
+            <div class="cont_bx">
+                <h1>Redefining </h1>
+                <div class="ani">
+                    <div class="top">Ownership</div>
+                    <div class="top">Investments</div>
+                    <div class="top">Real Estate</div>
+                    <div class="top">Creation</div>
+                </div>
+                <p>
+                    Invest in World-class Commercial Real Estate
+                </p>
+                
+                <div class="weather">
+                  <h6>42 deg C <span>Very Hot</span></h6>
+                </div>
+                <div class="btns_cont">
+                  <i class="bi bi-arrow-left" id="btn_left"></i>
+                  <i class="bi bi-arrow-right" id="btn_right"></i>
+                </div>
+
+                <div class="images_bx">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/550x/fc/07/40/fc0740d7c26d93974e117cb88a81bc36.jpg" alt="">
+                    </div>
+                    <div class="card">
+                        <img src="https://static8.depositphotos.com/1029202/1008/i/450/depositphotos_10085041-stock-photo-new-houses.jpg" alt="">
+                    </div>
+                    <div class="card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXjxnMEJPwReIDuHh_2cruq10g6Y6y5NH93g&s" alt="">
+                        <h6 id="h6">+6</h6> 
+                    </div>
+                </div>
+            </div>
+        <form style="margin-top: 50px;">
+            <div class="choose_bx">
+                <div class="stay_bx">
+                    <button><i class="bi bi-house-door-fill"></i>
+                    </button>
+                    <button><i class="bi bi-star-fill"></i></button>
+                    <button><i class="bi bi-tv-fill"></i></button>
+                </div>
+                <div class="select">
+                    <div class="card">
+                        <!-- <h5>Property Type</h5>
+                        
+                        <form>
+                            <div class="form-group">
+
+                                <select name="form-select border-0 py-3" id="" style="border: none; background-color: rgb(165, 156, 156);
+                                border-radius: 10px;
+                                margin-left: 40PX;
+                                margin-bottom: 20px; color: #fff; padding: 8px; margin-top: 8px; margin-left: 5px; width: 153px; text-align: center; padding-right: 5px;">
+                                    <option selected>Property Type</option>
+                                    <option value="">Apartments</option>
+                                    <option value="">Villas</option>
+                                    <option value="">Open houses</option>
+                                </select>
+
+                            </div>
+                            
+                        </form> -->
+                        
+                          <h5>People</h5>
+                          <input type="text" value="4 People" id="people">
+                          <div class="button1" style="display: flex;">
+                          <button id="people_less" style="display: inline-flex; width: 40%;">Less</button>
+                          <button id="people_more" style="display: inline-flex; width: 40%;">More</button>
+                        </div>
+                          
+
+                    </div>
+                    
+                    <div class="card">
+                       <div class="left_bx" >
+                        <h5>Book Your Appointment</h5>
+                        <div class="date">
+                            
+                            <input type="date" id="checkin" value="2022-08-11">
+                            <input type="time" id="checkin1" value="23:10" style="padding-left: 20px;">
+                             <button pys-onClick="sub" type="button"  class="btn btn-primary btn-custom" type="submit" id="btn-form" value="Submit" data-toggle="modal" data-target="#myModal" style="background-color: rgb(165, 156, 156); border-radius: 10px; margin-left: 40PX; margin-bottom: 20px;"> 
+                                Book
+                            </button>
+                            
+                            <div class="modal fade" id="myModal" role="dialog">
+                                <div class="modal-dialog">
+          
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h4 class="modal-title fs-5" id="exampleModalLabel">Appointment Booked</h4>
+                                      <button type="button" class="close" data-dismiss="modal" >&times;</button>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                      
+                                    </div>
+                                    <div class="modal-body" >
+                                      <p id ="output"></p>
+                                      <p id="output1"></p>
+                                     
+                                      
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-default" data-dismiss="modal" style="background-color: rgb(165, 156, 156); color: #fff; border-radius: 10px;">Sign up/ login</button>
+                                    </div>
+                                  </div>
+                                  
+                                </div>
+                              </div>
+                        </div>
+                       </div>
+
+                       
+                    </div>
+                </div>
+            </div>
+        </form>    
+        </div>
+      
+    </header>
+    
+
+    <div class="map">
+        <iframe src="https://my.atlist.com/map/dff0a6f1-a3c3-4df5-a24c-bc214a7afb4a/?share=true" allow="geolocation 'self' https://my.atlist.com" width="100%" height="400px" loading="lazy" frameborder="0" scrolling="no" allowfullscreen id="atlist-embed" style="height: 400px;"></iframe>
+    </div>
+
+    <!--
+
+    <div class="container-xxl py-5" style="background-color: rgb(88, 94, 144);">
+        <div class="container" >
+            <div class="text-center mx-auto mb-s wow fadeIn" style="max-width: 600px;">
+            <h1 class="mb-3">Property Types</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ut repudiandae amet. </p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-sm-6 wow fadeIn">
+                    <a href="" class="cat-item d-block bg-light text-center rounded p-3">
+                <div class="rounded p-4">
+                     <div class="icon mb-3">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1t6FPKK_DEKbHOhj81E8j3U4rNcSv4pafuw&s" alt="" class="img-fluid">
+                     </div>    
+                     <h6>Villas</h6>
+                     <span>123 Properties</span>
+                </div>
+                     </a>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeIn">
+                    <a href="" class="cat-item d-block bg-light text-center rounded p-3">
+                <div class="rounded p-4">
+                     <div class="icon mb-3">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1t6FPKK_DEKbHOhj81E8j3U4rNcSv4pafuw&s" alt="" class="img-fluid">
+                     </div>    
+                     <h6>Villas</h6>
+                     <span>123 Properties</span>
+                </div>
+                     </a>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 wow fadeIn">
+                    <a href="" class="cat-item d-block bg-light text-center rounded p-3">
+                <div class="rounded p-4">
+                     <div class="icon mb-3">
+                        <img src="https://i.pinimg.com/564x/77/e5/0c/77e50c04f9f512a456eb3e135a1c013b.jpg" alt="" class="img-fluid">
+                     </div>    
+                     <h6>Shop</h6>
+                     <span>123 Properties</span>
+                </div>
+                     </a>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeIn">
+                    <a href="" class="cat-item d-block bg-light text-center rounded p-3">
+                <div class="rounded p-4">
+                     <div class="icon mb-3">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCEIE22-JcBL4ng8PEr56umNKlA4equWT4KQ&s" alt="" class="img-fluid">
+                     </div>    
+                     <h6>Office</h6>
+                     <span>123 Properties</span>
+                </div>
+                     </a>
+                </div>
+                
+
+
+            </div>
+        </div>
+    </div> -->
+
+
+   
+<!-- <div class="hello"> 
+        <div class="invest">
+            <h1>Investment Options</h1>
+            GharDukaan provides mutiple investment options catering to different risk profiles, preferences and requirements. <br>
+        </div>
+    <div class="supp">    
+        
+            <div class="pix">
+                <img src="img1c.webp" alt="">
+                <img src="img1bw.jpg" alt="">
+                <div class="label">Villas</div> 
+            </div>
+       
+       
+            <div class="pix">
+                <img src="img2c.jpg" alt="">
+                <img src="img2bw.png" alt="">
+                <div class="label">Offices</div> 
+            </div>
+        
+        
+            <div class="pix">
+                <img src="img3c" alt="">
+                <img src="img3bw.png" alt="">
+                <div class="label">Apartments</div>
+            </div>
+        
+    </div>
+</div>-->
+
+<div class="container" style="margin-top: -180px; padding-bottom: 100px;">
+    <div class="invest">
+        <h1>Investment Options</h1>
+        <p>
+            GharDukaan provides multiple investment options catering to different
+            risk profiles, preferences, and requirements.
+        </p>
+    </div>
+    <div class="supp">
+        <div class="pix">
+            <img
+                src="img1bw.jpg"
+                alt="Image 1"
+                class="image-main"
+            />
+            <img
+                src="img1c.webp"
+                alt="Image 1 Black & White"
+                class="image-secondary"
+            />
+            <div class="label">Villas</div>
+        </div>
+
+        <div class="pix">
+            <img
+                src="img2bw.png"
+                alt="Image 2"
+                class="image-main"
+            />
+            <img
+                src="img2c.jpg"
+                alt="Image 2 Black & White"
+                class="image-secondary"
+            />
+            <div class="label">Offices</div>
+        </div>
+
+        <div class="pix">
+            <img
+                src="img3bw.png"
+                alt="Image 2"
+                class="image-main"
+            />
+            <img
+                src="img3c.png"
+                alt="Image 2 Black & White"
+                class="image-secondary"
+            />
+            <div class="label">Apartments</div>
+        </div>
+    </div>
+</div>
+  
+  <!-- <div class="back">
+    n <br> n
+    <div class="container">
+      <h1>About Property Renting</h1>
+      <form>
+        <div class="section">
+          
+          <div class="form-group">
+            <label for="street-address">Street address*</label>
+            <input type="text" id="street-address" placeholder="Grand Citra Utama Road No.1, Made" required>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="unit-number">Unit number*</label>
+              <input type="text" id="unit-number" placeholder="12A Blok 2" required>
+            </div>
+            <div class="form-group">
+              <label for="zip-code">Zip code*</label>
+              <input type="text" id="zip-code" placeholder="42332" required>
+            </div>
+            <div class="form-group">
+              <label for="state">State*</label>
+              <select id="state" required>
+                <option value="Indonesia">Indonesia</option>
+                <option value="India">India</option>
+                <option value="Inggris">Inggris</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        
+        <div class="form-actions">
+          
+          <button type="submit" class="continue-button" style="background-color: rgb(88, 94, 144); color: #fff;" onclick="window.location.href='file:///C:/Users/ACER/OneDrive/Desktop/GharDukaan/GharDukaan1/form.html'">Continue for rental form</button>
+
+        </div>
+      </form>
+    </div>
+    n <br> n
+  </div> -->
+
+
+
+  <div class="quiz-container">
+    <h2>Let us get to know you</h2>
+  
+    <!-- Progress bar with percentage -->
+    <div class="progress-container">
+      <div class="progress">
+        <div class="progress-bar" id="progressBar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      <div class="progress-text" id="progressText">0%</div>
+    </div>
+  
+    <!-- Name and Email Inputs -->
+    <div class="question" id="nameEmailForm">
+      <h4>Please enter your details:</h4>
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Enter your name" class="form-control" required><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Enter your email" class="form-control" required><br>
+      <button class="btn btn-primary" onclick="startQuiz()">Start Quiz</button>
+    </div>
+  
+    <!-- Questions -->
+    <div class="question" id="question1" style="display: none;">
+      <h4>1. What type of properties are you interested in?</h4>
+      <div class="answers">
+        <button onclick="nextQuestion(1, 'A')">Rental</button>
+        <button onclick="nextQuestion(1, 'B')">Buying</button>
+        <button onclick="nextQuestion(1, 'C')">Selling</button>
+        <button onclick="nextQuestion(1, 'D')">Investing</button>
+      </div>
+    </div>
+  
+    <div class="question" id="question2" style="display: none;">
+      <h4>2. Favorable Property Types:</h4>
+      <div class="answers">
+        <button onclick="nextQuestion(2, 'A')">Apartments</button>
+        <button onclick="nextQuestion(2, 'B')">Villas</button>
+        <button onclick="nextQuestion(2, 'C')">Offices</button>
+        <button onclick="nextQuestion(2, 'D')">Houses</button>
+      </div>
+    </div>
+  
+    <div class="question" id="question3" style="display: none;">
+      <h4>3. What is your current budget?</h4>
+      <div class="answers">
+        <button onclick="nextQuestion(3, 'A')">20,000/- to 1,00,000/-</button>
+        <button onclick="nextQuestion(3, 'B')">1,00,000/- to 10,00,000/-</button>
+        <button onclick="nextQuestion(3, 'C')">10,00,000/- to 15,00,000/-</button>
+        <button onclick="nextQuestion(3, 'D')">15,00,000/- or more</button>
+      </div>
+    </div>
+  
+    <div class="question" id="question4" style="display: none;">
+      <h4>4. Would you prefer an offline meeting?</h4>
+      <div class="answers">
+        <button onclick="nextQuestion(4, 'A')">Yes</button>
+        <button onclick="nextQuestion(4, 'B')">No</button>
+      </div>
+    </div>
+  
+    <!-- Quiz Result -->
+    <div class="result" id="result" style="display: none;">
+      <h4>Thank you for completing the quiz!</h4>
+      <p id="personalizedMessage"></p>
+      <button class="btn btn-primary" onclick="restartQuiz()">Restart Quiz</button>
+    </div>
+  </div>
+
+
+
+
+    <!-- About section-->
+<DIV class="TOPMOST">
+    <div class="container-xxl py-5" style="padding-bottom: 300px;">
+        <div class="container" style="display: flex;">
+            <div class="row g-5 align-items-center" >
+                <div class="about-img position-relative overflow-hidden p-5 pe-0">
+                    <video autoplay loop muted src="video1.mp4" style=" width: 400px;"><source src="video1.mp4"></video>
+                </div>
+            </div>
+            <div class="col-lg-6 fadeIn">
+                <h1 class="mb-4">#1 Place To Find The Perfect Property </h1>
+                <p class="mb-4">GharDukaan provides multiple investment options catering to different risk profiles, preferences, and requirements.</p>
+                <p><i class="bi bi-check-lg"></i> Invest in fractions of pre-leased, active commercial properties.</p>
+                <p><i class="bi bi-check-lg"></i> Invest in high value, off-market growth assets</p>
+                <p><i class="bi bi-check-lg"></i> Our assets outright and leverage our asset management</p>
+                <a href="file:///C:/Users/ACER/OneDrive/Desktop/GharDukaan/GharDukaan1/about.html" class="btn btn-secondary py-3 px-5 mt-3" style="background-color: rgb(88, 94, 144);">Read More</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="new1">
+      <div class="container" >
+          <div class="text-section" >
+              <h1>How it works</h1>
+              <p>Investing with us is easy, transparent, & completely online!</p>
+              <a href="#invest" class="button active"><h3>INVEST</h3><p>Invest in high-yield, Grade-A commercial assets</p></a>
+              
+              <a href="#earn" class="button"><h3>EARN</h3><p> Earn a passive income while building long-term wealth</p></a>
+              <a href="#track" class="button"><h3>TRACK</h3><p> Track your portfolio performance and get regular updates</p></a>
+              <a href="#sell" class="button"><h3>SELL</h3><p> Make a profitable exit with our liquidity options</p></a>
+          </div>
+          <div class="image-section">
+              <img id="invest" src="https://cdn.prod.website-files.com/6218a919266b38e43584d335/6555fe8d92a8efa54c5dd671_3.webp" alt="Invest Image" class="image">
+              <img id="earn" src="https://cdn.prod.website-files.com/6218a919266b38e43584d335/6555fecc89c1753d3cb668f5_1.webp" alt="Earn Image" class="image">
+              <img id="track" src="https://cdn.prod.website-files.com/6218a919266b38e43584d335/651e9f5be761a2b4e1b51bb1_phone%201%20(1).webp" alt="Track Image" class="image">
+              <img id="sell" src="https://cdn.prod.website-files.com/6218a919266b38e43584d335/65155ea280ad51ebc8007f5a_phone%204%20(convert.io).webp" alt="Sell Image" class="image">
+          </div>
+      </div>
+  </div>
+ 
+    <!-- Footer -->
+         <footer class="bg-darker bg-footer">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-6">
+                  <h5 class="text-light "> About Us</h5>
+                  <p class="text-light"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque eaque voluptatum quis quisquam non, nulla illum obcaecati necessitatibus sunt architecto.</p>
+                  <p class="text-light"><i class="fa fa-location"></i>123 456 897</p>
+                  <p class="text-light"><i class="fa fa-phone"></i>+91 8360591814</p>
+                  <p class="text-light"><i class="fa fa-envelop"></i> Mail->sardarji123545@gmail.com</p>
+                </div>
+                <div class="col-lg-3">
+                  <h5 class="text-light"> Quick Link</h5>
+                  <ul >
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Popular</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Reviews</a></li>
+                    <li><a href="#">Contacts</a></li>
+                  </ul>
+                </div>
+                <div class="col-lg-3">
+                  <h5 class="text-light">Stay Connected</h5>
+                  <ul class="list unstyled">
+                    <li><a href="#"><i class="fab fa-facebook"></i>facebook</a></li>
+                    <li><a href="#"><i class="fab fa-linkedin"></i>linkdin</a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i>instagram</a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i>twitter</a></li>
+                    
+                  </ul>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12">
+                  <p class="text-center text-light">
+                    copyright &copy; 2023 <a href="#"> Real Estate co</a>
+         All Rights Reserved.          </p>
+                </div>
+              </div>
+            </div>
+          </DIV>       
+        
+          </footer>
+        
+    
+          <py-script>
+            def sub(event):
+                result_place = Element('output')
+                time_place = Element('output1')
+                
+                # Retrieve values from inputs
+                date_value = Element('checkin').value
+                time_value = Element('checkin1').value
+                
+                # Display the results in the modal
+                 
+                result_place.write(f"Your Appointment has been set for {date_value}")
+                time_place.write(f"at {time_value} time. To get more details, kindly Sign up/ login.")
+        </py-script>
+  <!--AI BOT------------------------------------------------------ -->
+
+        <div class="chatbox">
+          <div class="chatbox-header">GharDukaan AI</div>
+          <div class="chatbox-content" id="chatboxContent"></div>
+          <div class="chatbox-input">
+              <input type="text" id="chatInput" placeholder="Type your message...">
+              <button onclick="sendMessage()">Send</button>
+          </div>
+      </div>
+      
+      <script>
+          function sendMessage() {
+              var input = document.getElementById("chatInput");
+              var message = input.value.trim();
+              if (message === "") return;
+  
+              var chatboxContent = document.getElementById("chatboxContent");
+  
+              // Add user message
+              var userMessage = document.createElement("div");
+              userMessage.className = "message user";
+              userMessage.innerHTML = '<div class="message-content">' + message + '</div>';
+              chatboxContent.appendChild(userMessage);
+  
+              // Clear input
+              input.value = "";
+  
+              // Simulate bot response
+              setTimeout(function() {
+                  var botMessage = document.createElement("div");
+                  botMessage.className = "message bot";
+                  botMessage.innerHTML = '<div class="message-content">' + getBotResponse(message) + '</div>';
+                  chatboxContent.appendChild(botMessage);
+  
+                  // Scroll to the bottom
+                  chatboxContent.scrollTop = chatboxContent.scrollHeight;
+              }, 1000);
+          }
+  
+          function getBotResponse(userInput) {
+              userInput = userInput.toLowerCase();
+  
+              if (userInput.includes("hello") || userInput.includes("hi") || userInput.includes("hey")) {
+                  return "Hii GharDukaan user! How can I assist you today?";
+              } else if (userInput.includes("help")) {
+                  return "What kind of help do you need?";
+              } else if (userInput.includes("rent") || userInput.includes("buy")) {
+                  return "We have a variety of properties available. What are you interested in? You can also visit our properties page";
+              } else if (userInput.includes("thanks") || userInput.includes("thank you")) {
+                  return "You're welcome! If you have more questions, feel free to ask.";
+              } else {
+                  return "I'm here to help! What do you want to know?";
+              }
+          }
+      </script>
+
+
+        <script src="main.js"></script>
+        <script src="one.js"></script>
+        <script src="server.js"></script>
+</body>
+</html>

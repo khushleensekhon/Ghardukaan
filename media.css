@@ -1,0 +1,359 @@
+@media screen and (max-width: 1402px) {
+    header{
+        width: 95%;
+        overflow: hidden;
+    }
+}
+@media screen and (max-width:971px){
+    header .content .choose_bx{
+        width: 95%;
+    }
+    header .content .choose_bx .select .card:nth-child(3) .date h3{
+        width: 100px;
+        font-size: 15px;
+    }
+    header .content .choose_bx .select .card:nth-child(3) .date i{
+        left: 77%;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    .ani {
+        margin-top: 100px;
+        margin-left: 0px;
+        width: 95vw; /* Adjust width for small screens */
+        height: 40px; /* Adjust height for small screens */
+    }
+
+    
+}
+
+@media (max-width: 480px) {
+    .ani {
+        width: 100vw; /* Full width for very small screens */
+        height: 30px; /* Adjust height for very small screens */
+    }
+
+    
+}
+
+@media screen and (max-width:767px){
+    header{
+        overflow: hidden;
+    }
+    header .content .cont_bx h1{
+        color: #fff;
+    }
+    header .content .cont_bx p{
+        color: #fff;
+    }
+    header .content .cont_bx .weather h6{
+        color: #fff;
+    }
+    header .content .cont_bx .btns_cont{
+        color: #fff;
+    }
+    header .content .choose_bx .select{
+        height: auto;
+        flex-wrap: wrap;
+    }
+    header .content .choose_bx .select .card{
+        width: 49%;
+    }
+    header .content .choose_bx .select .card:nth-last-child(1){
+        width: 100%;
+        margin-top: 5px;
+    }
+    header .content .choose_bx .select .card:nth-child(3) .date h3{
+        width: 120px;
+        font-size: 18px;
+    }
+}
+@media (max-width: 1200px) {
+    .slider {
+        padding: 40px 0;
+    }
+
+    .sli img {
+        height: 150px; 
+        padding-left: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .slider {
+        padding: 20px 0; 
+    }
+
+    .sli img {
+        height: 120px; 
+        padding-left: 10px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .slider {
+        padding: 10px 0; 
+    }
+
+    .sli img {
+        height: 100px; 
+        padding-left: 5px; 
+    }
+}
+@media (max-width: 1200px) {
+    .custom-select {
+        width: 200px; /* Adjust width for medium screens */
+        font-size: 18px; /* Increase font size */
+    }
+}
+
+@media (max-width: 992px) {
+    .custom-select {
+        width: 180px; /* Adjust width for smaller screens */
+        font-size: 16px; /* Adjust font size */
+        margin: 8px 5px; /* Adjust margins */
+    }
+}
+
+@media (max-width: 768px) {
+    .custom-select {
+        width: 100%; /* Full width on mobile screens */
+        font-size: 14px; /* Decrease font size */
+        margin: 8px 0; /* Adjust margins */
+    }
+}
+
+@media (max-width: 576px) {
+    .custom-select {
+        width: 100%; /* Full width on very small screens */
+        font-size: 14px; /* Decrease font size */
+        padding: 10px; /* Increase padding for better touch */
+        margin: 8px 0; /* Adjust margins */
+    }
+}
+/* Responsive styles about main page */
+@media (max-width: 992px) {
+    .container {
+      flex-direction: column;
+    }
+    .about-img {
+      padding: 5px 0;
+    }
+    .col-lg-6 {
+      padding: 15px 0;
+    }
+  }
+  @media (max-width: 576px) {
+    .col-lg-6 h1 {
+      font-size: 1.5rem;
+    }
+    .col-lg-6 p {
+      font-size: 0.875rem;
+    }
+    .col-lg-6 .btn {
+      font-size: 0.875rem;
+      padding: 0.5rem 1rem;
+    }
+  }
+
+/* Mobile devices (up to 600px) */
+@media only screen and (max-width: 600px) {
+    .supp {
+        display: flex;              /* Flexbox for consistent stacking */
+        flex-direction: column;     /* Ensure items stack vertically */
+        align-items: center;        /* Center the items */
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .pix {
+        width: 90%;                 /* Ensure images don't take full width for margin breathing space */
+        height: auto;
+        margin: 20px 0;             /* Add vertical spacing between images */
+    }
+
+    .pix img {
+        width: 100%;                /* Full width within the .pix container */
+        height: auto;
+    }
+
+    .label {
+        font-size: 18px;
+        padding: 5px 15px;
+    }
+
+    .invest h1 {
+        font-size: 24px;
+    }
+}
+
+/* Tablets (600px to 900px) */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .supp {
+        display: flex;              /* Flexbox layout */
+        flex-direction: column;     /* Stack items vertically */
+        align-items: center;        /* Center the items */
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .pix {
+        width: 80%;                 /* Set a smaller width with space around images */
+        height: auto;
+        margin: 20px 0;             /* Add vertical spacing */
+    }
+
+    .pix img {
+        width: 100%;
+        height: auto;
+    }
+
+    .label {
+        font-size: 20px;
+        padding: 6px 20px;
+    }
+
+    .invest h1 {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (max-width: 840px) {
+    /* Flex direction change to column for stacking elements vertically */
+    header .content .choose_bx .select {
+      flex-direction: column;
+      align-items: stretch;
+      padding: 20px 0;
+      height: auto;
+    }
+  
+    /* Stack the cards vertically */
+    header .content .choose_bx .select .card {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+  
+    /* Ensure the input fields and button within each card are full-width */
+    header .content .choose_bx .select .card input,
+    header .content .choose_bx .select .card select,
+    header .content .choose_bx .select .card button {
+      width: 100%;
+    }
+  
+    /* Vertical alignment of the book button */
+    header .content .choose_bx .select .card:nth-child(4) {
+      margin-top: 20px;
+      width: 100%;
+      border: none;
+      padding: 10px 0;
+    }
+    
+    /* Ensure responsive font-size and padding for smaller screens */
+    header .content .choose_bx .select .card h5 {
+      margin-bottom: 8px;
+    }
+  
+    /* Adjust the input fields and button padding and size */
+    header .content .choose_bx .select .card input {
+      font-size: 16px;
+      padding: 10px;
+    }
+  
+    header .content .choose_bx .select .card button {
+      padding: 12px;
+      font-size: 16px;
+    }
+  }
+  
+  /* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    .new1 .container {
+        flex-direction: column;
+    }
+
+    .new1 .text-section {
+        padding: 10px;
+    }
+
+    .new1 .image-section {
+        display: none; /* Hide image section completely */
+    }
+}
+/* Media query for tablet and smaller screens */
+@media (max-width: 768px) {
+    header .content .cont_bx {
+        width: 90%; /* Adjust the width for smaller screens */
+        padding: 20px;
+    }
+
+    header .content .cont_bx h1 {
+        font-size: 35px; /* Reduce font size */
+        line-height: 40px;
+    }
+
+    header .content .cont_bx p {
+        font-size: 12px; /* Adjust paragraph font size */
+    }
+
+    header .content .cont_bx .images_bx {
+        position: relative;
+        right: 0;
+        top: 20px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    header .content .cont_bx .images_bx .card {
+        width: 80px; /* Increase the width of the cards for better visibility */
+        height: 80px;
+        margin: 10px;
+    }
+
+    header .content .cont_bx .images_bx .card img {
+        height: auto;
+    }
+
+    header .content::before {
+        height: 60%; /* Adjust the background image height */
+        background-position-y: -20px;
+        border-radius: 0;
+    }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 480px) {
+    header .content .cont_bx {
+        width: 100%;
+        padding: 10px;
+    }
+
+    header .content .cont_bx h1 {
+        font-size: 28px; /* Further reduce font size for small screens */
+        line-height: 32px;
+    }
+
+    header .content .cont_bx p {
+        font-size: 10px; /* Reduce paragraph font size */
+    }
+
+    header .content .cont_bx .images_bx {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    header .content .cont_bx .images_bx .card {
+        width: 60px; /* Reduce card size for small screens */
+        height: 60px;
+        margin: 5px;
+    }
+
+    header .content::before {
+        height: 50%;
+        background-position-y: -30px;
+    }
+}
